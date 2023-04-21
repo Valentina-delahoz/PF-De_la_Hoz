@@ -17,19 +17,44 @@
 <body>
     <!--Navegador-->
     <header>
-            <nav>
-                <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="pages/belleza.html">Belleza</a></li>
-                        <li><a href="pages/nutricion.html">Nutrición</a></li>
-                        <li><a href="pages/salud_mental.html">Salud mental</a></li>
-                        <li><a href="pages/viajes.html">Viajes</a></li>
-                </ul>
-            </nav>
-            <div class="logo">
-                <img src="images/logo_waby.png" >
+        <nav class="navbar navbar-expand-xl navbar-dark color-bg">
+            <div class="container-fluid">
+                <a class="navbar-logo">
+                    <img src="images/logo_icon_fondo_morado.png" alt="Logo ícono de la marca" width="54px" height="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarDark">
+                    <ul class="navbar-nav">
+                        <li class="nav-texto dropdown">
+                            <a class="nav-texto dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#tendencias">Tendencias</a></li>
+                                <li><a class="dropdown-item" href="#blogs">Blogs</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#pie_de_pagina_index">Sobre nosotros</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-texto" href="/pages/belleza.html">Belleza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-texto" href="/pages/nutricion.html">Nutrición</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-texto" href="/pages/salud_mental.html">Salud mental</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-texto" href="/pages/viajes.html">Viajes</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
     </header>
+
+    
     <!--Fin navegador-->
 
     <!--Buscador-->
@@ -261,7 +286,7 @@
         </div>
     </footer>
     <!--Fin pie de página-->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
