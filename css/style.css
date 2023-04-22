@@ -10,6 +10,7 @@ header{
     position: fixed;
     z-index: 100;
     width: 100%;
+    margin-top: 0;
 }
 .color-bg {
     background-color: #313E6A;
@@ -37,13 +38,108 @@ header{
 }
 /* Fin navegador */
 
-/* Buscador_index*/
-#buscador img {
-    margin-top: 40px;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
+/* Buscador_index */
+
+/* Computadores */
+#buscador .universal_1 {
+    display: flex;
 }
+#buscador .universal_1 .contenedor_1{
+    width: 50%;
+    display: block;
+}
+#buscador .universal_1 .contenedor_1 .titulo_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#buscador .universal_1 .contenedor_1 .titulo_1 img{
+    width: 75%;
+    margin-top: 130px;
+}
+#buscador .universal_1 .contenedor_1 .descripcion_1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#buscador .universal_1 .contenedor_1 .descripcion_1 p{
+    width: 80%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+#buscador .universal_1 .contenedor_1 .universal_2{
+    display: flex;
+    justify-content: center;
+}
+#buscador .universal_1 .contenedor_1 .universal_2 .input-group{
+    width: 70%;
+}
+#buscador .universal_1 .contenedor_1 .universal_2 .input-group input{
+    width: 70%;
+}
+::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+#buscador .universal_1 .contenedor_1 .universal_2 .input-group span{
+    background-color: #AD8CF4;
+}
+#buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example{
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+#buscador .universal_1 .contenedor_2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#buscador .universal_1 .contenedor_2 img{
+    margin-top: 90px;
+    width: 90%;
+}
+
+/* Tablets */
+@media (min-width:600px) and (max-width:1024px) {
+    #buscador .universal_1 .contenedor_1{
+        width: 40%;
+    }
+    #buscador .universal_1 .contenedor_2{
+        width: 60%;
+    }
+    #buscador .universal_1 .contenedor_1 .descripcion_1 p{
+        width: 80%;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 80%;
+    }
+    ::placeholder{
+        font-size: 80%;
+    }
+    #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-text{
+        font-size: 50%;
+    }
+}
+
+/* Celulares */
+@media (min-width:100px) and (max-width:600px) {
+    #buscador .universal_1{
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+    #buscador .universal_1 .contenedor_1{
+        width: 100%;
+    }
+    #buscador .universal_1 .contenedor_2{
+        width: 100%;
+    }
+    #buscador .universal_1 .contenedor_2 img{
+        margin-top: 20px;
+    }
+}
+
+
 /*
 #buscador .barra_busqueda {
     position : absolute;
