@@ -438,7 +438,7 @@ header{
     background-color: #FFA700;
     display: flex;
     justify-content: center;
-    height: 50%;
+    padding-bottom: 100px;
 }
 #blogs .universal_3{
     display: flex;
@@ -480,7 +480,7 @@ header{
     "imagen fecha"
     "imagen texto"; 
     width: 100%; 
-    height: 5%;
+    height: 50px;
     background-color: #ffffff;
     margin-bottom: 10px;
     border-radius: 50px;
@@ -492,7 +492,8 @@ header{
 }
 #blogs .bloggueado .universal_4  .contenedor .imagen img { 
     margin-top: 10px;
-    width: 40%;
+    margin-left: 10px;
+    width: 60%;
     height: 60%;
 }
 #blogs .bloggueado .universal_4  .contenedor .fecha {     grid-area: fecha;
@@ -510,10 +511,11 @@ header{
     grid-area: texto;
     display: flex;
     justify-content: flex-start;
+    margin-left: 10px;
     width: 90%;
 }
 #blogs .universal_4  .contenedor .sub_cont .texto p{
-    width: 100% ;
+    width: 110% ;
     font-family: 'Lato', sans-serif;
     font-size: 100%;
     color: #313E6A;
@@ -527,7 +529,7 @@ header{
     width: 90%;
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 45% 25% 5%;
+    grid-template-rows: 55% 30% 10%;
     grid-auto-columns: 1fr;
     gap: 10px 10px;
     grid-auto-flow: row;
@@ -571,6 +573,7 @@ header{
 } 
 #blogs .universal_3 .paises .boton button{ 
     width: 30%;
+    height: 35px;
     margin-top: 10px;
     border-radius: 20px;
     border-color: #ffffff;
@@ -596,6 +599,140 @@ header{
     color: #313E6A;
 }
 
+/* Tablets 1*/
+@media (min-width:800px) and (max-width:1024px) {
+    #blogs .universal_3 {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+    #blogs .bloggueado {
+        width: 50%;
+        display: block;
+    }
+    #blogs .universal_3 .universal_5 {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #blogs .bloggueado .universal_4 .universal_4_1 {
+        width: 75%;
+        display: block;
+    }
+    #blogs .universal_3 .universal_5 .paises {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 60% 25% 10%;
+        grid-auto-columns: 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "mapa mapa mapa"
+            "p_1 p_2 p_3"
+            "boton boton boton";
+    }
+}
+/* Tablets 2*/
+@media (min-width:601px) and (max-width:799px) {
+    #blogs .universal_3 {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+    #blogs .bloggueado {
+        width: 55%;
+        display: block;
+    }
+    #blogs .universal_3 .universal_5 {
+        width: 45%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #blogs .bloggueado .universal_4 .universal_4_1 {
+        width: 85%;
+        display: block;
+    }
+    #blogs .universal_3 .universal_5 .paises {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 50% 50% 0%;
+        grid-template-rows: 60% 25% 10%;
+        grid-auto-columns: 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "mapa mapa mapa"
+            "p_1 p_2 p_3"
+            "boton boton boton";
+    }
+    #blogs .universal_3 .paises .p_3 {
+        display: none;
+    }
+    #blogs .universal_3 .paises .boton button {
+        width: 40%;
+        margin-top: 10px;
+        border-radius: 20px;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Celulares */
+@media (min-width:100px) and (max-width:600px) {
+    #blogs .universal_3 {
+        display: block;
+        width: 90%;
+    }
+    #blogs .bloggueado {
+        width: 100%;
+        display: block;
+    }
+    #blogs .universal_3 .universal_5 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #blogs .bloggueado .universal_4 .universal_4_1{
+        width: 55%;
+        display: block;
+    }
+    #blogs .universal_3 .universal_5 .paises {
+        width: 65%;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 55% 30% 10%;
+        grid-auto-columns: 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "mapa mapa mapa"
+            "p_1 p_2 p_3"
+            "boton boton boton";
+    }
+    #blogs .universal_3 .universal_5 .paises .mapa  {
+        justify-content: center;
+    }
+    #blogs .universal_3 .universal_5 .paises .mapa iframe {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #blogs .universal_3 .paises .boton button {
+        width: 40%;
+        margin-top: 10px;
+        border-radius: 20px;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+    }
+}
 /* Fin blogs */
 
 /* Pie de página */
@@ -603,6 +740,8 @@ header{
     background-color: #ffffff;
     width: 100%;
 }
+
+/*
 #pie_de_pagina_index .logo_pie img {
     width: 25%;
     margin-left: 5.4%;
