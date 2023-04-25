@@ -172,7 +172,7 @@ header{
 }
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1{
     width: 30%;
-    background-color: #00CCFF;
+    background-color: #84D8ED;
     border-radius: 20px;
     box-shadow: 0px 20px 10px -6px grey;
     display: block;
@@ -214,7 +214,7 @@ header{
 }
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2{
     width: 30%;
-    background-color: #00FD29;
+    background-color: #7EED90;
     border-radius: 20px;
     box-shadow: 0px 20px 10px -6px grey;
 }
@@ -255,7 +255,7 @@ header{
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2{
     width: 30%;
-    background-color: #00CCFF;
+    background-color: #84D8ED;
     border-radius: 20px;
     box-shadow: 0px 20px 10px -6px grey;
 }
@@ -265,7 +265,7 @@ header{
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3{
     width: 30%;
-    background-color: #00FD29;
+    background-color: #7EED90;
     border-radius: 20px;
     box-shadow: 0px 20px 10px -6px grey;
 }
@@ -435,7 +435,7 @@ header{
 #blogs {
     background-size: 100%;
     margin-top: 100px;
-    background-color: #FFA700;
+    background-color: #FFE745;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
@@ -591,7 +591,7 @@ header{
     margin-top: 3px;
 }
 #blogs .universal_3 .paises .boton button:hover {
-    background-color: #FBFF27;
+    background-color: #FFA700;
     border-color: #313E6A;
     color: #313E6A;
 }
@@ -736,52 +736,87 @@ header{
 /* Fin blogs */
 
 /* Pie de página */
-#pie_de_pagina_index {
+#pie_de_pagina {
+    margin-top: 90px;
+    margin-bottom: 90px;
     background-color: #ffffff;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#pie_de_pagina .logo_pie {
+    width: 15%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#pie_de_pagina .logo_pie img{
+    width: 70%;
+}
+#pie_de_pagina .sobre_nosotros {
+    width: 40%;
+    margin-left: -120px;
+}
+#pie_de_pagina .sobre_nosotros .titulo_3 {
+    width: 100%;
+}
+#pie_de_pagina .sobre_nosotros .titulo_3 img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+#pie_de_pagina .sobre_nosotros p {
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    color: #1a223c;
+    text-align: justify;
+}
+#pie_de_pagina .redes_sociales {
+    width: 10%;
+    display: block;
+}
+#pie_de_pagina .redes_sociales img{
+    width: 40%;
+    margin-bottom: 20px;
 }
 
-/*
-#pie_de_pagina_index .logo_pie img {
-    width: 25%;
-    margin-left: 5.4%;
-    margin-top: 40px;
-    position: absolute;
+/* Tablets */
+@media (min-width:601px) and (max-width:1024px) {
+    #pie_de_pagina {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #pie_de_pagina .logo_pie {
+        width: 40%;
+        margin: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #pie_de_pagina .logo_pie img{
+        width: 60%;
+    }
+    #pie_de_pagina .sobre_nosotros {
+        width: 60%;
+    }
+    #pie_de_pagina .titulo_3 {
+        display: flex;
+        justify-content: center;
+    }
+    #pie_de_pagina .redes_sociales {
+        width: 70%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #pie_de_pagina .redes_sociales img{
+        width: 35%;
+    }
+    #pie_de_pagina .redes_sociales a {
+        display: flex;
+        justify-content: center;
+    }
 }
-#pie_de_pagina_index .sobre_nosotros .titulo_3 h4{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: #604551;
-    margin-top: 8%;
-    padding-left: 36%;
-    position: absolute;
-    background-color: transparent;
-}
-#pie_de_pagina_index .sobre_nosotros p {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: #604551;
-    width: 40%;
-    margin-top: 10.5%;
-    padding-left: 36%;
-    padding-bottom: 90px;
-    position: absolute;
-    background-color: transparent;
-}
-#pie_de_pagina_index .redes_sociales a img{
-    width: 4%;
-    position: absolute;
-}
-#pie_de_pagina_index .redes_sociales .instagram a img {
-    margin-left: 83%;
-    margin-top: 8%;
-}
-#pie_de_pagina_index .redes_sociales .facebook a img {
-    margin-left: 83%;
-    margin-top: 14%;
-}
-#pie_de_pagina_index .redes_sociales .twitter a img {
-    margin-left: 83%;
-    margin-top: 20%;
+
+/* Celulares */
+@media (min-width:100px) and (max-width:600px) {
+    
 }
 /* Fin pie de página */
