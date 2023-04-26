@@ -143,6 +143,7 @@ header{
 /* Fin buscador */
 
 /* Tendencias */
+/* Computadores */
 #tendencias .contenedor_1 {
     display: flex;
     justify-content: center;
@@ -273,6 +274,7 @@ header{
     background-color: transparent;
     box-shadow: 0px 10px 10px 6px grey;
 }
+
 /* Tablets */
 @media (min-width:601px) and (max-width:1024px) {
     #tendencias .contenedor_1 {
@@ -432,6 +434,7 @@ header{
 /* Fin tendencias */
 
 /* Blogs */
+/* Computadores */
 #blogs {
     background-size: 100%;
     margin-top: 100px;
@@ -633,6 +636,7 @@ header{
             "boton boton boton";
     }
 }
+
 /* Tablets 2*/
 @media (min-width:601px) and (max-width:799px) {
     #blogs .universal_3 {
@@ -736,6 +740,7 @@ header{
 /* Fin blogs */
 
 /* Pie de página */
+/* Computadores */
 #pie_de_pagina {
     margin-top: 90px;
     margin-bottom: 90px;
@@ -860,3 +865,158 @@ header{
     }
 }
 /* Fin pie de página */
+
+/* Intro */
+/* Computadores */
+#intro_pages .universal_1 {
+    display: flex;
+}
+#intro_pages .universal_1 .contenedor_1{
+    width: 60%;
+    margin-top: 40px;
+    display: block;
+}
+#intro_pages .universal_1 .contenedor_1 .titulo_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#intro_pages .universal_1 .contenedor_1 .titulo_1 img{
+    width: 75%;
+    margin-top: 130px;
+}
+#intro_pages .universal_1 .contenedor_1 .descripcion_1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#intro_pages .universal_1 .contenedor_1 .descripcion_1 p{
+    width: 80%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+#intro_pages .universal_1 .contenedor_2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+#intro_pages .universal_1 .contenedor_2 img{
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 90%;
+}
+
+/* Tablets */
+@media (min-width:601px) and (max-width:1024px) {
+    #intro_pages .universal_1 .contenedor_1{
+        width: 40%;
+    }
+    #intro_pages .universal_1 .contenedor_2{
+        width: 60%;
+    }
+    #intro_pages .universal_1 .contenedor_1 .descripcion_1 p{
+        width: 80%;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 80%;
+    }
+}
+
+/* Celulares */
+@media (min-width:100px) and (max-width:600px) {
+    #intro_pages .universal_1{
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+    #intro_pages .universal_1 .contenedor_1{
+        width: 100%;
+    }
+    #intro_pages .universal_1 .contenedor_2{
+        width: 100%;
+    }
+    #intro_pages .universal_1 .contenedor_2 img{
+        margin-top: 20px;
+    }
+}
+/* Fin intro */
+
+/*Producto destacado*/
+#seccion_destacada {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #AAE5E7;
+}
+#seccion_destacada .texto_destacado {
+    width: 60%;
+    display: block;
+}
+#seccion_destacada .texto_destacado .titulo_2{
+    width: 100%;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+#seccion_destacada .texto_destacado .titulo_2 img{
+    width: 40%;
+}
+#seccion_destacada .texto_destacado .categoria_2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#seccion_destacada .texto_destacado .categoria_2 h1{
+    width: 70%;
+    margin-left: 30px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color:#1a223c;
+}
+#seccion_destacada .texto_destacado .descripcion_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#seccion_destacada .texto_destacado .descripcion_2 p{
+    width: 70%;
+    margin-left: 30px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color:#1a223c;
+    text-align: justify;
+}
+#seccion_destacada .texto_destacado .imagen_calificacion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#seccion_destacada .texto_destacado .imagen_calificacion img{
+    width: 35%;
+}
+#seccion_destacada .texto_destacado .calificacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#seccion_destacada .texto_destacado .calificacion p{
+    width: 35%;
+    margin-left: 30px;
+    font-size: 70%;
+    font-family: 'Lato', sans-serif;
+    color:#693ACF;
+}
+#seccion_destacada .imagen_destacada {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+#seccion_destacada .imagen_destacada img {
+    width: 100%;
+    
+}
