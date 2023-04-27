@@ -499,7 +499,8 @@ header{
     width: 60%;
     height: 60%;
 }
-#blogs .bloggueado .universal_4  .contenedor .fecha {     grid-area: fecha;
+#blogs .bloggueado .universal_4  .contenedor .fecha {     
+    grid-area: fecha;
     display: flex;
     justify-content: flex-end;  
 }
@@ -943,6 +944,7 @@ header{
 /* Fin intro */
 
 /*Producto destacado*/
+/*Computadores*/
 #seccion_destacada {
     margin-top: 45px;
     width: 100%;
@@ -1017,6 +1019,108 @@ header{
     margin-right: 70px;
 }
 #seccion_destacada .imagen_destacada img {
-    width: 100%;
-    
+    width: 100%;  
 }
+/*Fin sección destacada*/
+
+/* Catálogo */
+/* Computadores */
+#catalogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #AAE5E7;
+    margin-top: -6px;
+}
+#catalogo .carrusel {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+#catalogo .carrusel #carouselWithCaptions{
+    border-radius: 30px;
+}
+
+#catalogo .carrusel .carousel-caption h5{
+    width: 100%;
+    font-size: 130%;
+    font-family: 'Lato', sans-serif;
+    color:#1a223c;
+    background-color: #AAE5E7;
+}
+#catalogo .carrusel .carousel-caption p{
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color:#1a223c;
+    margin-top: 0;
+    background-color: #AAE5E7;
+}
+/*Fin catálogo*/
+
+/* Recomendaciones*/
+/*Computadores*/
+#recomendaciones{
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+#recomendaciones .te_recomendamos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#recomendaciones .te_recomendamos .titulo_3 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+#recomendaciones .te_recomendamos .titulo_3 img{
+    width: 50%;
+}
+#recomendaciones .universal_6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#recomendaciones .universal_6 .contenedor_1 { 
+    display: grid;
+    grid-template-columns: 20% 30% 25% 15%;
+    grid-template-rows: 23% 23% 23% 23%;
+    grid-auto-columns: 1fr;
+    gap: 4px 0px;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+      ". img_2 texto_4 img_4"
+      "img_1 img_2 img_3 img_4"
+      "img_1 texto_2 img_3 ."
+      "texto_1 . texto_3 texto_3";
+    width: 80%;
+  }
+#recomendaciones .universal_6 .contenedor_1  img{ 
+    width: 100%;
+    margin-bottom: 40px;
+}
+#recomendaciones .universal_6 .contenedor_1  p{ 
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color:#1a223c;
+}
+#recomendaciones .universal_6 .contenedor_1 .texto_1 { 
+grid-area: texto_1; }
+#recomendaciones .universal_6 .contenedor_1 .img_1 { 
+grid-area: img_1; }
+#recomendaciones .universal_6 .contenedor_1 .img_2 { 
+grid-area: img_2; }
+#recomendaciones .universal_6 .contenedor_1 .texto_2 { grid-area: texto_2; }
+#recomendaciones .universal_6 .contenedor_1 .texto_4 { grid-area: texto_4; }
+#recomendaciones .universal_6 .contenedor_1 .img_3 { grid-area: img_3; }
+#recomendaciones .universal_6 .contenedor_1 .texto_3 {  grid-area: texto_3; }
+#recomendaciones .universal_6 .contenedor_1 .img_4 { grid-area: img_4; }
+  
