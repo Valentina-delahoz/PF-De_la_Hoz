@@ -869,40 +869,40 @@ header{
 
 /* Intro */
 /* Computadores */
-#intro_pages .universal_1 {
+.intro_pages .universal_1 {
     display: flex;
 }
-#intro_pages .universal_1 .contenedor_1{
+.intro_pages .universal_1 .contenedor_1{
     width: 60%;
     margin-top: 40px;
     display: block;
 }
-#intro_pages .universal_1 .contenedor_1 .titulo_1{
+.intro_pages .universal_1 .contenedor_1 .titulo_1{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-#intro_pages .universal_1 .contenedor_1 .titulo_1 img{
+.intro_pages .universal_1 .contenedor_1 .titulo_1 img{
     width: 75%;
     margin-top: 130px;
 }
-#intro_pages .universal_1 .contenedor_1 .descripcion_1 {
+.intro_pages .universal_1 .contenedor_1 .descripcion_1 {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-#intro_pages .universal_1 .contenedor_1 .descripcion_1 p{
+.intro_pages .universal_1 .contenedor_1 .descripcion_1 p{
     width: 80%;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 100%;
 }
-#intro_pages .universal_1 .contenedor_2{
+.intro_pages .universal_1 .contenedor_2{
     width: 40%;
     display: flex;
     justify-content: center;
 }
-#intro_pages .universal_1 .contenedor_2 img{
+.intro_pages .universal_1 .contenedor_2 img{
     margin-top: 90px;
     margin-left: 100px;
     width: 90%;
@@ -910,13 +910,13 @@ header{
 
 /* Tablets */
 @media (min-width:601px) and (max-width:1024px) {
-    #intro_pages .universal_1 .contenedor_1{
+    .intro_pages .universal_1 .contenedor_1{
         width: 40%;
     }
-    #intro_pages .universal_1 .contenedor_2{
+    .intro_pages .universal_1 .contenedor_2{
         width: 60%;
     }
-    #intro_pages .universal_1 .contenedor_1 .descripcion_1 p{
+    .intro_pages .universal_1 .contenedor_1 .descripcion_1 p{
         width: 80%;
         text-align: center;
         font-family: 'Lato', sans-serif;
@@ -926,18 +926,18 @@ header{
 
 /* Celulares */
 @media (min-width:100px) and (max-width:600px) {
-    #intro_pages .universal_1{
+    .intro_pages .universal_1{
         display: block;
         align-items: center;
         width: 100%;
     }
-    #intro_pages .universal_1 .contenedor_1{
+    .intro_pages .universal_1 .contenedor_1{
         width: 100%;
     }
-    #intro_pages .universal_1 .contenedor_2{
+    .intro_pages .universal_1 .contenedor_2{
         width: 100%;
     }
-    #intro_pages .universal_1 .contenedor_2 img{
+    .intro_pages .universal_1 .contenedor_2 img{
         margin-top: 20px;
     }
 }
@@ -945,45 +945,45 @@ header{
 
 /*Producto destacado*/
 /*Computadores*/
-#seccion_destacada .belleza{
+.seccion_destacada .belleza{
     margin-top: 45px;
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #AAE5E7;
 }
-#seccion_destacada .texto_destacado {
+.seccion_destacada .texto_destacado {
     width: 60%;
     display: block;
 }
-#seccion_destacada .texto_destacado .titulo_2{
+.seccion_destacada .texto_destacado .titulo_2{
     width: 100%;
     margin-top: 85px;
     display: flex;
     justify-content: center;
 }
-#seccion_destacada .texto_destacado .titulo_2 img{
+.seccion_destacada .texto_destacado .titulo_2 img{
     width: 40%;
 }
-#seccion_destacada .texto_destacado .categoria_2{
+.seccion_destacada .texto_destacado .categoria_2{
     width: 100%;
     margin-top: 30px;
     display: flex;
     justify-content: center;
 }
-#seccion_destacada .texto_destacado .categoria_2 h1{
+.seccion_destacada .texto_destacado .categoria_2 h1{
     width: 70%;
     margin-left: 30px;
     font-size: 100%;
     font-family: 'Lato', sans-serif;
     color:#1a223c;
 }
-#seccion_destacada .texto_destacado .descripcion_2{
+.seccion_destacada .texto_destacado .descripcion_2{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-#seccion_destacada .texto_destacado .descripcion_2 p{
+.seccion_destacada .texto_destacado .descripcion_2 p{
     width: 70%;
     margin-left: 30px;
     font-size: 100%;
@@ -991,34 +991,34 @@ header{
     color:#1a223c;
     text-align: justify;
 }
-#seccion_destacada .texto_destacado .imagen_calificacion {
+.seccion_destacada .texto_destacado .imagen_calificacion {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-#seccion_destacada .texto_destacado .imagen_calificacion img{
+.seccion_destacada .texto_destacado .imagen_calificacion img{
     width: 35%;
 }
-#seccion_destacada .texto_destacado .calificacion {
+.seccion_destacada .texto_destacado .calificacion {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
 }
-#seccion_destacada .texto_destacado .calificacion p{
+.seccion_destacada .texto_destacado .calificacion p{
     width: 35%;
     margin-left: 30px;
     font-size: 70%;
     font-family: 'Lato', sans-serif;
     color:#693ACF;
 }
-#seccion_destacada .imagen_destacada {
+.seccion_destacada .imagen_destacada {
     width: 30%;
     display: flex;
     justify-content: center;
     margin-right: 70px;
 }
-#seccion_destacada .belleza .imagen_destacada img {
+.seccion_destacada .belleza .imagen_destacada img {
     width: 100%;  
 }
 /*Fin sección destacada*/
@@ -1125,14 +1125,14 @@ grid-area: img_2; }
 #recomendaciones .universal_6 .contenedor_1 .img_4 { grid-area: img_4; }
 
 /* Seccion destacada_nutricion */
-#seccion_destacada .nutricion {
+.seccion_destacada .nutricion {
     margin-top: 45px;
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #7EED90;
 }
-#seccion_destacada .nutricion .imagen_destacada img {
+.seccion_destacada .nutricion .imagen_destacada img {
     width: 100%;  
 }
 /*Fin seccion*/
@@ -1397,3 +1397,20 @@ grid-area: img_2; }
     background-color: #AD8CF4;
     border-color: #AD8CF4;
 }
+/*Fin entradas*/
+
+/* Seccion destacada_viajes */
+.seccion_destacada .viajes {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #B08CFF;
+}
+.seccion_destacada .viajes .imagen_destacada img {
+    width: 100%;  
+}
+.seccion_destacada .viajes .texto_destacado .titulo_2 img{
+    width: 20%;
+}
+/*Fin seccion*/
