@@ -8,7 +8,9 @@ $colores-base:
 #FFE745, 
 #313E6A, 
 grey,
-#FFFFFF; 
+#FFFFFF,
+#FFE7D2,
+#FFE745;
 
 $colores-texto:
 #1A223C, 
@@ -40,6 +42,7 @@ $colores-texto:
 $display:
 block,
 grid;
+
 %imagen-paises{
     width: 100%;
     height: 100%;

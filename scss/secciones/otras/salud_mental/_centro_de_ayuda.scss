@@ -1,1 +1,95 @@
 @import "../../../base/variable";
+
+#centro_de_ayuda{
+    background-color: nth($colores-base , 10 );
+    width: 100%;
+    margin-top: 100px;
+    .contenedor_1{
+        @extend %centrado;
+        background-size: 100%;
+        .titulo_1{
+            width: 18%;
+            margin-top: 80px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .contenedor_2{
+        width: 100%;
+        margin-top: 40px;
+        display: nth($display , 1 );
+        .contenedor_3{
+            width: 100%;
+            @extend %centrado;
+            .contenedor_3_0{
+                width: 80%;
+                display: flex;
+                justify-content: space-around;
+                .contenedor_3_1{
+                    width: 23%;
+                    background-color: nth($colores-base , 9 );
+                    border-radius: 10px;
+                    display: nth($display , 1 );
+                    &:hover{
+                        box-shadow: 0px 10px 10px 6px nth($colores-base , 8 );
+                    }
+                }
+            }
+        }
+        .imagen{
+            @extend %centrado;
+            width: 100%;
+        }
+        img{
+            width: 50%;
+            margin-top: 10px;
+        }
+        .categoria{
+            width:100%;
+            @extend %centrado;
+            p{
+                @extend %diseño-texto;
+                color: nth($colores-texto , 1 );
+                text-align: center;
+            }
+        }
+        .descripcion_salud{
+            width:100%;
+            @extend %centrado;
+            p{
+                width: 80%;
+                font-family: 'Lato', sans-serif;
+                text-align: center;
+                color: nth($colores-texto , 1 );
+                margin-top: -15px;
+                margin-bottom: 50px;
+            }
+        }
+        .boton{
+            @extend %centrado;
+            button{
+                width: 10%;
+                height: 35px;
+                margin-top: 60px;
+                margin-bottom: 80px;
+                border-radius: 20px;
+                border-color: nth($colores-base , 2 );
+                border-width: 3px;
+                border-style: solid;
+                background-color: nth($colores-base , 2 );
+                @extend %centrado;
+                &:hover{
+                    background-color: nth($colores-base , 11 );
+                    border-color: nth($colores-base , 11 );
+                }
+                a{
+                    @extend %diseño-texto;
+                    text-decoration: none;
+                    color: nth($colores-texto , 1 );
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+}
