@@ -1,0 +1,56 @@
+@import "../../../base/variable";
+
+#galeria{
+    @extend %centrado;
+    width: 100%;
+    background-color: nth($colores-base , 5 );
+    .contenedor_1{
+        display: nth($display , 2 );
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 32% 32% 32%;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        justify-items: stretch;
+        align-items: stretch;
+        grid-template-areas:
+            "imagen_1 imagen_2 imagen_3"
+            "imagen_4 imagen_5 imagen_6"
+            "imagen_7 imagen_8 imagen_9";
+        width: 70%;
+        margin-top: 40px;
+        margin-bottom:100px;
+        .imagen_1{
+            grid-area: imagen_1; 
+        }
+        img{
+            width: 100%; 
+            margin-bottom: 10px;
+        }
+        .imagen_2{
+            grid-area: imagen_2; 
+        }
+        .imagen_3{
+            grid-area: imagen_3; 
+        }
+        .imagen_4{
+            grid-area: imagen_4; 
+        }
+        .imagen_5{
+            grid-area: imagen_5; 
+        }
+        .imagen_6{
+            grid-area: imagen_6;
+        }
+        .imagen_7{
+            grid-area: imagen_7; 
+        }
+        .imagen_8{
+            grid-area: imagen_8; 
+        }
+        .imagen_9{
+            grid-area: imagen_9; 
+        }
+    }
+}

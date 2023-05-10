@@ -3,6 +3,7 @@
 #entradas{
     width: 100%;
     @extend %centrado;
+    margin-bottom: 200px;
     #secciones{
         width: 50%;
         display: nth($display, 1);
@@ -81,6 +82,10 @@
         .centrado{
             width: 70%;
             form{
+                .form-check-input:checked {
+                    background-color: nth($colores-base, 5);
+                    border-color: nth($colores-base, 5);
+                }
                 button{
                     background-color: nth($colores-base, 5);
                     border-color: nth($colores-base, 5);
