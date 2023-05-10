@@ -1,0 +1,32 @@
+@import "../../../base/variable";
+
+#catalogo{
+    width: 100%;
+    @extend %centrado;
+    background-color: nth($colores-base, 3);
+    margin-top: -6px;
+    .carrusel{
+        width: 50%;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        #carouselWithCaptions{
+            border-radius: 30px;
+        }
+        .carousel-caption{
+            h5{
+                width: 100%;
+                font-size: 130%;
+                font-family: 'Lato', sans-serif;
+                color: nth($colores-texto, 1);
+                background-color: nth($colores-base, 3);
+            }
+            p{
+                width: 100%;
+                @extend %diseño-texto;
+                color:nth($colores-texto, 1);
+                margin-top: 0;
+                background-color: nth($colores-base, 3);
+            }
+        }
+    }
+}

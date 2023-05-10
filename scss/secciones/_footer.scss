@@ -1,1 +1,43 @@
 @import "../base/variable";
+
+/* Computadores */
+#pie_de_pagina {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-color: nth($colores-base,9);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    .logo_pie{
+        width: 15%;
+        margin-left: 30px;
+        margin-top: 30px;
+        img{
+            width: 70%;
+        }
+    }
+    .sobre_nosotros{
+        width: 40%;
+        margin-left: -120px;
+        .titulo_3{
+            width: 100%;
+            img{
+                width: 50%;
+                margin-bottom: 20px;
+            }
+            p{
+                @extend %diseño-texto;
+                color: #1a223c;
+                text-align: justify;
+            }
+        }
+    }
+    .redes_sociales{
+        width: 10%;
+        display: block;
+        img{
+            width: 40%;
+            margin-bottom: 20px;
+        }
+    }
+}

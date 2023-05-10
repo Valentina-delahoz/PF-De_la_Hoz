@@ -1,0 +1,74 @@
+@import "../../../base/variable";
+
+#recomendaciones{
+    width: 100%;
+    display: nth($display, 1 );
+    margin-top: 80px;
+    margin-bottom: 140px;
+    .te_recomendamos{
+        width: 100%;
+        @extend %centrado;
+        .titulo_3{
+            width: 60%;
+            @extend %centrado;
+            img{
+                width: 50%;
+            }
+        }
+    }
+    .universal_6{
+        width: 100%;
+        @extend %centrado;
+        .contenedor_1{
+            display: nth($display, 2 );
+            grid-template-columns: 20% 30% 25% 15%;
+            grid-template-rows: 23% 23% 23% 23%;
+            grid-auto-columns: 1fr;
+            gap: 4px 0px;
+            grid-auto-flow: row;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            justify-items: stretch;
+            align-items: stretch;
+            grid-template-areas:
+              ". img_2 texto_4 img_4"
+              "img_1 img_2 img_3 img_4"
+              "img_1 texto_2 img_3 ."
+              "texto_1 . texto_3 texto_3";
+            width: 80%;
+            img{
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            p{
+                width: 100%;
+                @extend %diseño-texto;
+                color: nth($colores-texto , 1);
+            }
+            .texto_1{
+                grid-area: texto_1;
+            }
+            .img_1{
+                grid-area: img_1;
+            }
+            .img_2{
+                grid-area: img_2;
+            }
+            .texto_2{
+                grid-area: texto_2;
+            }
+            .texto_4{
+                grid-area: texto_4; 
+            }
+            .img_3{
+                grid-area: img_3; 
+            }
+            .texto_3{
+                grid-area: texto_3; 
+            }
+            .img_4{
+                grid-area: img_4;
+            }
+        }
+    }
+}

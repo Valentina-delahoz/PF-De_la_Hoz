@@ -1,0 +1,43 @@
+@import "../../base/variable";
+
+/* Computadores */
+.intro_pages {
+
+    .universal_1{
+        display: flex;
+        .contenedor_1{
+            width: 60%;
+            margin-top: 40px;
+            display: block;
+            .titulo_1{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 75%;
+                    margin-top: 130px;
+                }
+            }
+            .descripcion_1{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                p{
+                    @extend %diseño-texto;
+                    width: 80%;
+                    text-align: center;
+                }
+            }
+        }
+        .contenedor_2{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            img{
+                margin-top: 90px;
+                margin-left: 100px;
+                width: 90%;
+            }
+        }
+    }
+}

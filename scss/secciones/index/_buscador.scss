@@ -1,1 +1,51 @@
 @import "../../base/variable";
+
+#buscador {
+    .universal_1{
+        display: flex;
+        .contenedor_1{
+            width: 50%;
+            display: block;
+            .titulo_1{
+                width: 100%;
+                @extend %centrado;
+                img{
+                    width: 75%;
+                    margin-top: 130px;
+                }
+            }
+            .descripcion_1{
+                width: 100%;
+                @extend %centrado;
+                p{
+                    width: 80%;
+                    text-align: center;
+                    @extend %diseño-texto;
+                }
+            }
+            .universal_2{
+                @extend %centrado;
+                .input-group{
+                    width: 50%;
+                    input{
+                        width: 70%;
+                    }
+                    span{
+                        background-color: nth($colores-base, 5 );
+                        .input-group-right-example{
+                            @extend %diseño-texto;
+                        }
+                    }
+                }
+            }
+        }
+        .contenedor_2{
+            width: 50%;
+            @extend %centrado;
+            img{
+                margin-top: 90px;
+                width: 90%;
+            }
+        }
+    }
+}

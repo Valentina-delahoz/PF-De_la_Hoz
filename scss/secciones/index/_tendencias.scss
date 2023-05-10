@@ -1,1 +1,110 @@
 @import "../../base/variable";
+
+#tendencias {
+
+    .contenedor_1{
+        @extend %centrado;
+        background-size: 100%;
+        margin-top: 90px;
+        .titulo_1{
+            width: 20%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .contenedor_2{
+        width: 100%;
+        margin-top: 40px;
+        display: block;
+        .contenedor_3{
+            width: 100%;
+            @extend %centrado;
+            .contenedor_3_0{
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                .contenedor_3_1{
+                    @extend %contendedor-tendencia;
+                    @include color(nth($colores-base, 3 ));
+
+                    &:hover{
+                        @extend %hover-tendencia;
+                    }
+                }
+                .contenedor_3_2{
+                    @extend %contendedor-tendencia;
+                    @include color(nth($colores-base, 1 ));
+                    &:hover{
+                        @extend %hover-tendencia;
+                    }
+                }
+                .contenedor_3_3{
+                    @extend %contendedor-tendencia;
+                    @include color(nth($colores-base, 4 ));
+                    &:hover{
+                        @extend %hover-tendencia;
+                    }
+                }
+            }
+        }
+        .contenedor_4{
+            width: 100%;
+            @extend %centrado;
+            margin-top: 30px;
+            .contenedor_4_0{
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                .contenedor_4_1{
+                    @extend %contendedor-tendencia;
+                    @include color(nth($colores-base, 4 ));
+                    &:hover{
+                        @extend %hover-tendencia;
+                    }
+                }
+                .contenedor_4_2{
+                    @extend %contendedor-tendencia;
+                    @include color(nth($colores-base, 3 ));
+                    &:hover{
+                        @extend %hover-tendencia;
+                    }
+                }
+                .contenedor_4_3{
+                    @extend %contendedor-tendencia;
+                    @include color(nth($colores-base, 1 ));
+                    &:hover{
+                        @extend %hover-tendencia;
+                    }
+                }
+            }
+        }
+        .imagen{
+            @extend %centrado;
+            width: 100%;
+            img{
+                width: 50%;
+            }
+        }
+        .categoria{
+            width:100%;
+            @extend %centrado;
+            p{
+                @extend %diseño-texto;
+                color: nth($colores-texto, 1);
+                text-align: center;
+            }
+        }
+        .descripcion_tendencia{
+            width:100%;
+            @extend %centrado;
+            p{
+                width: 80%;
+                font-family: 'Lato', sans-serif;
+                text-align: center;
+                color: nth($colores-texto, 1);
+                margin-top: -15px;
+            }
+        }
+    }
+}
