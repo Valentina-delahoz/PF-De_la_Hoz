@@ -17,7 +17,7 @@
             .paises{
                 width: 90%;
                 display: nth($display , 2 );
-                grid-template-columns: 32% 32% 32%;
+                grid-template-columns: 31% 31% 31%;
                 grid-template-rows: 55% 30% 10%;
                 grid-auto-columns: 1fr;
                 gap: 10px 10px;
@@ -155,6 +155,126 @@
                         font-size: 100%;
                         color: #313E6A;
                     }
+                }
+            }
+        }
+    }
+}
+
+/* Tablets 1*/
+@media (min-width:768px) and (max-width:1024px) {
+    #blogs{
+        .universal_3{
+            width: 90%;
+            .universal_5{
+                width: 50%;
+                .paises{
+                    grid-template-rows: 60% 25% 10%;
+                }
+            }
+        }
+        .bloggueado{
+            width: 50%;
+            .universal_4{
+                .universal_4_1{
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+/* Tablets 2 */
+@media (min-width:699px) and (max-width:767px) {
+    #blogs{
+        .universal_3{
+            width: 90%;
+            .universal_5{
+                width: 45%;
+                .paises{
+                    grid-template-columns: 50% 50% 0%;
+                    grid-template-rows: 60% 25% 10%;
+                    .p_3{
+                        display: none;
+                    }
+                    .boton{
+                        button{
+                            width: 40%;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .bloggueado{
+            display: block;
+            .universal_4{
+                .universal_4_1{
+                    width: 85%;
+                }
+            }
+        }
+    }
+}
+
+/* Tablets 3 */
+@media (min-width:556px) and (max-width:698px) {
+    #blogs{
+        .universal_3{
+            display: block;
+            width: 90%;
+            .universal_5{
+                width: 100%;
+                justify-content: center;
+                .paises{
+                    width: 80%;
+                    .mapa{
+                        justify-content: center;
+                        iframe{
+                            margin-top: 30px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .bloggueado{
+            width: 100%;
+            .universal_4{
+                .universal_4_1{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+/* Celulares */
+@media (min-width:320px) and (max-width:555px) {
+    #blogs{
+        .universal_3{
+            display: block;
+            width: 90%;
+            .universal_5{
+                width: 100%;
+                justify-content: center;
+                .paises{
+                    width: 80%;
+                    .mapa{
+                        justify-content: center;
+                        iframe{
+                            margin-top: 30px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .bloggueado{
+            width: 100%;
+            .universal_4{
+                .universal_4_1{
+                    width: 80%;
                 }
             }
         }
