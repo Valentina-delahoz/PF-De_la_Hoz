@@ -25,11 +25,11 @@
                 width: 50%;
                 margin-bottom: 20px;
             }
-            p{
-                @extend %diseño-texto;
-                color: #1a223c;
-                text-align: justify;
-            }
+        }
+        p{
+            @extend %diseño-texto;
+            color: nth($colores-texto , 1 );
+            text-align: justify;
         }
     }
     .redes_sociales{
@@ -38,6 +38,95 @@
         img{
             width: 40%;
             margin-bottom: 20px;
+        }
+    }
+}
+
+/* Tablets */
+@media (min-width:768px) and (max-width:1024px) {
+    #pie_de_pagina{
+        display: flex;
+        flex-wrap: wrap;
+        .logo_pie{
+            width: 40%;
+            margin: 0;
+            margin-left: 0;
+            margin-top: 0;
+            img{
+                width: 60%;
+            }
+        }
+        .sobre_nosotros{
+            width: 60%;
+            .titulo_3{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .redes_sociales{
+            width: 70%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                width: 20%;
+            }
+            a{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+/* Celulares */
+@media (min-width:320px) and (max-width:768px) {
+    #pie_de_pagina{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        .logo_pie{
+            width: 100%;
+            margin: 0;
+            margin-left: 0;
+            margin-top: 0;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 25%;
+            }
+        }
+        .sobre_nosotros{
+            width: 70%;
+            margin-top: 20px;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            .titulo_3{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 80%;
+                }
+            }
+            p{
+                color: nth($colores-texto , 1 );
+                text-align: justify;
+            }
+        }
+        .redes_sociales{
+            width: 60%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                width: 65%;
+            }
+            a{
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 }

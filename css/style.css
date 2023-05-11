@@ -1,4 +1,4 @@
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros .titulo_3 p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -64,7 +64,7 @@ header .nav-texto:hover {
   color: #FBFF27;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros .titulo_3 p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -127,8 +127,8 @@ header .nav-texto:hover {
   width: 50%;
   margin-bottom: 20px;
 }
-#pie_de_pagina .sobre_nosotros .titulo_3 p {
-  color: #1a223c;
+#pie_de_pagina .sobre_nosotros p {
+  color: #1A223C;
   text-align: justify;
 }
 #pie_de_pagina .redes_sociales {
@@ -140,7 +140,94 @@ header .nav-texto:hover {
   margin-bottom: 20px;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros .titulo_3 p {
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #pie_de_pagina {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #pie_de_pagina .logo_pie {
+    width: 40%;
+    margin: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #pie_de_pagina .logo_pie img {
+    width: 60%;
+  }
+  #pie_de_pagina .sobre_nosotros {
+    width: 60%;
+  }
+  #pie_de_pagina .sobre_nosotros .titulo_3 {
+    display: flex;
+    justify-content: center;
+  }
+  #pie_de_pagina .redes_sociales {
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #pie_de_pagina .redes_sociales img {
+    width: 20%;
+  }
+  #pie_de_pagina .redes_sociales a {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* Celulares */
+@media (min-width: 320px) and (max-width: 768px) {
+  #pie_de_pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #pie_de_pagina .logo_pie {
+    width: 100%;
+    margin: 0;
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #pie_de_pagina .logo_pie img {
+    width: 25%;
+  }
+  #pie_de_pagina .sobre_nosotros {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #pie_de_pagina .sobre_nosotros .titulo_3 {
+    display: flex;
+    justify-content: center;
+  }
+  #pie_de_pagina .sobre_nosotros .titulo_3 img {
+    width: 80%;
+  }
+  #pie_de_pagina .sobre_nosotros p {
+    color: #1A223C;
+    text-align: justify;
+  }
+  #pie_de_pagina .redes_sociales {
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #pie_de_pagina .redes_sociales img {
+    width: 65%;
+  }
+  #pie_de_pagina .redes_sociales a {
+    display: flex;
+    justify-content: center;
+  }
+}
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -316,7 +403,7 @@ header .nav-texto:hover {
   color: #313E6A;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -389,7 +476,7 @@ header .nav-texto:hover {
   width: 90%;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -498,7 +585,7 @@ header .nav-texto:hover {
   margin-top: -15px;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -611,7 +698,7 @@ header .nav-texto:hover {
   width: 100%;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -684,7 +771,7 @@ header .nav-texto:hover {
   width: 90%;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -746,7 +833,7 @@ header .nav-texto:hover {
   background-color: #AAE5E7;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -846,7 +933,7 @@ header .nav-texto:hover {
   grid-area: img_4;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -932,7 +1019,7 @@ header .nav-texto:hover {
   grid-area: imagen_9;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -1050,7 +1137,7 @@ header .nav-texto:hover {
   margin-top: 3px;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p, #centro_de_ayuda .contenedor_2 .categoria p, #centro_de_ayuda .contenedor_2 .boton button a {
+#entradas #secciones .titulo .universal_4 .contenedor .texto p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p, #centro_de_ayuda .contenedor_2 .categoria p, #centro_de_ayuda .contenedor_2 .boton button a {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
@@ -1168,7 +1255,7 @@ header .nav-texto:hover {
   border-color: #B08CFF;
 }
 
-#pie_de_pagina .sobre_nosotros .titulo_3 p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p, #centro_de_ayuda .contenedor_2 .categoria p, #centro_de_ayuda .contenedor_2 .boton button a, #entradas #secciones .titulo .universal_4 .contenedor .texto p {
+#pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #recomendaciones .universal_6 .contenedor_1 p, #centro_de_ayuda .contenedor_2 .categoria p, #centro_de_ayuda .contenedor_2 .boton button a, #entradas #secciones .titulo .universal_4 .contenedor .texto p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
