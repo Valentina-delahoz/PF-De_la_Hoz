@@ -3,7 +3,7 @@
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
   display: flex;
   justify-content: center;
 }
@@ -14,7 +14,6 @@
 }
 
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -69,7 +68,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
   display: flex;
   justify-content: center;
 }
@@ -80,7 +79,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -232,7 +230,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
   display: flex;
   justify-content: center;
 }
@@ -243,7 +241,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -408,7 +405,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_1, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button {
   display: flex;
   justify-content: center;
 }
@@ -419,7 +416,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -517,7 +513,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2 {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #tendencias .contenedor_2 .descripcion_tendencia, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2 {
   display: flex;
   justify-content: center;
 }
@@ -528,7 +524,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -564,6 +559,8 @@ header .nav-texto:hover {
 }
 #tendencias .contenedor_2 .contenedor_3 {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 {
   width: 70%;
@@ -571,16 +568,21 @@ header .nav-texto:hover {
   justify-content: space-between;
 }
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
+  width: 30%;
   background-color: #AAE5E7;
 }
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2 {
+  width: 30%;
   background-color: #7EED90;
 }
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3 {
+  width: 30%;
   background-color: #F0A290;
 }
 #tendencias .contenedor_2 .contenedor_4 {
   width: 100%;
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 {
@@ -589,12 +591,15 @@ header .nav-texto:hover {
   justify-content: space-between;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1 {
+  width: 30%;
   background-color: #F0A290;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2 {
+  width: 30%;
   background-color: #AAE5E7;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
+  width: 30%;
   background-color: #7EED90;
 }
 #tendencias .contenedor_2 .imagen {
@@ -621,12 +626,80 @@ header .nav-texto:hover {
   margin-top: -15px;
 }
 
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #tendencias .contenedor_1 {
+    margin-top: 30px;
+  }
+  #tendencias .contenedor_1 .titulo_1 {
+    margin-top: 50px;
+    width: 25%;
+  }
+  #tendencias .contenedor_2 {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  #tendencias .contenedor_2 .contenedor_3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+  }
+  #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 {
+    display: block;
+    width: 50%;
+  }
+  #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #tendencias .contenedor_2 .imagen img {
+    width: 50%;
+  }
+  #tendencias .contenedor_2 .categoria p {
+    font-size: 70%;
+  }
+  #tendencias .contenedor_2 .descripcion_tendencia p {
+    font-size: 60%;
+  }
+  #tendencias .contenedor_2 .contenedor_4 {
+    display: flex;
+    width: 45%;
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+  #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 {
+    display: block;
+    width: 50%;
+  }
+  #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 #entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .calificacion p, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .categoria_2 h1, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .viajes, .seccion_destacada .nutricion, .seccion_destacada .belleza, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia {
   display: flex;
   justify-content: center;
 }
@@ -637,7 +710,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -739,7 +811,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
   display: flex;
   justify-content: center;
 }
@@ -750,7 +822,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -812,7 +883,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
   display: flex;
   justify-content: center;
 }
@@ -823,7 +894,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -874,7 +944,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo {
   display: flex;
   justify-content: center;
 }
@@ -885,7 +955,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -974,7 +1043,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6 {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6 {
   display: flex;
   justify-content: center;
 }
@@ -985,7 +1054,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -1060,7 +1128,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador {
   display: flex;
   justify-content: center;
 }
@@ -1071,7 +1139,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -1178,7 +1245,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button {
+#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button {
   display: flex;
   justify-content: center;
 }
@@ -1189,7 +1256,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
@@ -1296,7 +1362,7 @@ header .nav-texto:hover {
   font-size: 100%;
 }
 
-#galeria, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .contenedor_3, #tendencias .contenedor_2 .contenedor_4, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button, #entradas, #entradas #secciones .titulo .titulo_1, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #form {
+#galeria, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_1, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .descripcion_tendencia, .seccion_destacada .belleza, .seccion_destacada .nutricion, .seccion_destacada .viajes, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .descripcion_salud, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button, #entradas, #entradas #secciones .titulo .titulo_1, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #form {
   display: flex;
   justify-content: center;
 }
@@ -1307,7 +1373,6 @@ header .nav-texto:hover {
 }
 
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2, #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2, #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
-  width: 30%;
   border-radius: 20px;
   box-shadow: 0px 20px 10px -6px grey;
   display: block;
