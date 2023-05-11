@@ -909,9 +909,6 @@ header .nav-texto:hover {
   border-radius: 10px;
 }
 
-.seccion_destacada {
-  margin-top: -60px;
-}
 .seccion_destacada .belleza {
   margin-top: 45px;
   width: 100%;
@@ -1279,6 +1276,20 @@ header .nav-texto:hover {
   background-color: #AAE5E7;
 }
 
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #catalogo .carrusel {
+    width: 80%;
+    margin-top: 0;
+  }
+}
+/* Celulares */
+@media (min-width: 320px) and (max-width: 767px) {
+  #catalogo .carrusel {
+    width: 90%;
+    margin-top: 0;
+  }
+}
 #entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
