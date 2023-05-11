@@ -3,7 +3,8 @@
 #tendencias {
 
     .contenedor_1{
-        @extend %centrado;
+        display: flex;
+        justify-content: center;
         background-size: 100%;
         margin-top: 90px;
         .titulo_1{
@@ -27,6 +28,7 @@
                 justify-content: space-between;
                 .contenedor_3_1{
                     @extend %contendedor-tendencia;
+                    display: block;
                     width: 30%;
                     @include color(nth($colores-base, 3 ));
 
@@ -36,6 +38,7 @@
                 }
                 .contenedor_3_2{
                     @extend %contendedor-tendencia;
+                    display: block;
                     width: 30%;
                     @include color(nth($colores-base, 1 ));
                     &:hover{
@@ -44,6 +47,7 @@
                 }
                 .contenedor_3_3{
                     @extend %contendedor-tendencia;
+                    display: block;
                     width: 30%;
                     @include color(nth($colores-base, 4 ));
                     &:hover{
@@ -63,6 +67,7 @@
                 justify-content: space-between;
                 .contenedor_4_1{
                     @extend %contendedor-tendencia;
+                    display: block;
                     width: 30%;
                     @include color(nth($colores-base, 4 ));
                     &:hover{
@@ -71,6 +76,7 @@
                 }
                 .contenedor_4_2{
                     @extend %contendedor-tendencia;
+                    display: block;
                     width: 30%;
                     @include color(nth($colores-base, 3 ));
                     &:hover{
@@ -79,6 +85,7 @@
                 }
                 .contenedor_4_3{
                     @extend %contendedor-tendencia;
+                    display: block;
                     width: 30%;
                     @include color(nth($colores-base, 1 ));
                     &:hover{
@@ -105,7 +112,8 @@
         }
         .descripcion_tendencia{
             width:100%;
-            @extend %centrado;
+            display: flex;
+            justify-content: center;
             p{
                 width: 80%;
                 font-family: 'Lato', sans-serif;
@@ -187,6 +195,91 @@
                     .contenedor_4_3{
                         width: 100%;
                         margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Celulares */
+@media (min-width:320px) and (max-width:767px) {
+    #tendencias{
+        .contenedor_1{
+            margin-top: 70px;
+            .titulo_1{
+                width: 45%;
+            }
+        }
+        .contenedor_2{
+            margin-top: 50px;
+            display: block;
+            width: 100%;
+            .contenedor_3{
+                width: 100%;
+                .contenedor_3_0{
+                    display: block;
+                    width: 60%;
+                    .contenedor_3_1{
+                        width: 100%;
+                        margin-bottom: 30px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    .contenedor_3_2{
+                        width: 100%;
+                        margin-bottom: 30px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    .contenedor_3_3{
+                        width: 100%;
+                        margin-bottom: 30px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                }
+            }
+            .imagen{
+                width: 30%;
+                margin-left: 10px;
+                img{
+                    width: 100%;
+                }
+            }
+            .categoria{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                p{
+                    font-size: 80%;
+                }
+            }
+            .descripcion_tendencia{
+                display: none;
+                width: 0;
+            }
+            .contenedor_4{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 0;
+                .contenedor_4_0{
+                    display: block;
+                    width: 60%;
+                    .contenedor_4_1{
+                        width: 100%;
+                        margin-bottom: 30px;
+                        display: flex;
+                        justify-content: space-around;
+                        background-color: #AAE5E7;
+                    }
+                    .contenedor_4_2{
+                        display: none;
+                    }
+                    .contenedor_4_3{
+                        display: none;
                     }
                 }
             }
