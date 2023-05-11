@@ -1058,6 +1058,44 @@ header .nav-texto:hover {
   width: 90%;
 }
 
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1024px) {
+  .intro_pages .universal_1 .contenedor_1 {
+    width: 50%;
+  }
+  .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
+    width: 60%;
+  }
+  .intro_pages .universal_1 .contenedor_2 {
+    width: 50%;
+  }
+}
+/* Celulares */
+@media (min-width: 320px) and (max-width: 649px) {
+  .intro_pages {
+    display: flex;
+    justify-content: center;
+  }
+  .intro_pages .universal_1 {
+    display: block;
+    align-items: center;
+    width: 70%;
+  }
+  .intro_pages .universal_1 .contenedor_1 {
+    width: 100%;
+    margin-top: -100px;
+  }
+  .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
+    width: 60%;
+  }
+  .intro_pages .universal_1 .contenedor_2 {
+    width: 100%;
+  }
+  .intro_pages .universal_1 .contenedor_2 img {
+    margin-top: 130px;
+    margin-right: 70px;
+  }
+}
 #entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .boton button a, #centro_de_ayuda .contenedor_2 .categoria p, #recomendaciones .universal_6 .contenedor_1 p, #catalogo .carrusel .carousel-caption p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .seccion_destacada .texto_destacado .descripcion_2 p, .seccion_destacada .texto_destacado .calificacion p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
