@@ -56,7 +56,8 @@
         }
         .descripcion_salud{
             width:100%;
-            @extend %centrado;
+            display: flex;
+            justify-content: center;
             p{
                 width: 80%;
                 font-family: 'Lato', sans-serif;
@@ -69,7 +70,7 @@
         .boton{
             @extend %centrado;
             button{
-                width: 10%;
+                width: 30%;
                 height: 35px;
                 margin-top: 60px;
                 margin-bottom: 80px;
@@ -84,10 +85,83 @@
                     border-color: nth($colores-base , 11 );
                 }
                 a{
-                    @extend %diseño-texto;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 100%;
                     text-decoration: none;
                     color: nth($colores-texto , 1 );
                     margin-top: 3px;
+                }
+            }
+        }
+    }
+}
+
+/* Tablets */
+@media (min-width:768px) and (max-width:1024px){
+    #centro_de_ayuda{
+        .contenedor_1{
+            .titulo_1{
+                width: 30%;
+            }
+        }
+        .contenedor_2{
+            .contenedor_3{
+                .contenedor_3_0{
+                    flex-wrap: wrap;
+                    .contenedor_3_1{
+                        width: 46%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Celulares */
+@media (min-width:320px) and (max-width:767px) {
+    #centro_de_ayuda{
+        .contenedor_1{
+            margin-top: 70px;
+            .titulo_1{
+                width: 45%;
+            }
+        }
+        .contenedor_2{
+            margin-top: 50px;
+            .contenedor_3{
+                .contenedor_3_0{
+                    display: block;
+                    .contenedor_3_1{
+                        width: 100%;
+                        margin-bottom: 14px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                }
+            }
+            .imagen{
+                width: 25%;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            img{
+                width: 100%;
+            }
+            .categoria{
+                width: 50%;
+                align-items: center;
+                margin-top: 10px;
+            }
+            .descripcion_salud{
+                display: none;
+                width: 0;
+            }
+            .boton{
+                button{
+                    a{
+                        font-size: 80%;
+                    }
                 }
             }
         }
