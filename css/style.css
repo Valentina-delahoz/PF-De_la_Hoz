@@ -1,9 +1,9 @@
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
   display: flex;
   justify-content: center;
 }
@@ -62,12 +62,12 @@ header .nav-texto:hover {
   color: #FBFF27;
 }
 
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
   display: flex;
   justify-content: center;
 }
@@ -223,12 +223,12 @@ header .nav-texto:hover {
     justify-content: center;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #blogs .universal_3 .universal_5 .paises .boton button a, #pie_de_pagina .sobre_nosotros p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs .universal_3 .universal_5 .paises .boton button, #blogs .universal_3 .universal_5 .paises .boton, #blogs {
   display: flex;
   justify-content: center;
 }
@@ -492,12 +492,12 @@ header .nav-texto:hover {
     width: 80%;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #buscador .universal_1 .contenedor_2, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .titulo_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button {
   display: flex;
   justify-content: center;
 }
@@ -599,12 +599,12 @@ header .nav-texto:hover {
     width: 85%;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #tendencias .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2 {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #tendencias .contenedor_2 .categoria, #tendencias .contenedor_2 .imagen, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2 {
   display: flex;
   justify-content: center;
 }
@@ -876,12 +876,12 @@ header .nav-texto:hover {
     display: none;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, .seccion_destacada .texto_destacado .categoria_2 h1, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, .seccion_destacada .texto_destacado .calificacion, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .titulo_2, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria {
   display: flex;
   justify-content: center;
 }
@@ -1107,12 +1107,12 @@ header .nav-texto:hover {
     font-size: 80%;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1 {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1 {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
   display: flex;
   justify-content: center;
 }
@@ -1216,12 +1216,12 @@ header .nav-texto:hover {
     margin-right: 70px;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
+#centro_de_ayuda .contenedor_2 .categoria p, #catalogo .carrusel .carousel-caption p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #catalogo, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion {
   display: flex;
   justify-content: center;
 }
@@ -1290,12 +1290,12 @@ header .nav-texto:hover {
     margin-top: 0;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
+#centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #recomendaciones .universal_6, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .te_recomendamos, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo {
   display: flex;
   justify-content: center;
 }
@@ -1484,12 +1484,12 @@ header .nav-texto:hover {
     display: none;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
+#centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6 {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #filtrador, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6 {
   display: flex;
   justify-content: center;
 }
@@ -1605,12 +1605,12 @@ header .nav-texto:hover {
     display: none;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
+#centro_de_ayuda .contenedor_2 .categoria p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #centro_de_ayuda .contenedor_2 .boton button, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador {
   display: flex;
   justify-content: center;
 }
@@ -1779,12 +1779,12 @@ header .nav-texto:hover {
     font-size: 80%;
   }
 }
-#entradas #secciones .titulo .universal_4 .contenedor .texto p, #pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #centro_de_ayuda .contenedor_2 .categoria p {
+#pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #centro_de_ayuda .contenedor_2 .categoria p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #entradas #form, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #entradas, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button {
+#galeria, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .titulo_1, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button {
   display: flex;
   justify-content: center;
 }
@@ -1814,6 +1814,8 @@ header .nav-texto:hover {
 
 #entradas {
   width: 100%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 200px;
 }
 #entradas #secciones {
@@ -1864,9 +1866,9 @@ header .nav-texto:hover {
 }
 #entradas #secciones .titulo .universal_4 .contenedor .fecha p {
   font-family: "Lato", sans-serif;
-  font-size: 80%;
-  margin-top: 30px;
+  font-size: 75%;
   margin-right: 30px;
+  margin-top: 4px;
   color: #1A223C;
 }
 #entradas #secciones .titulo .universal_4 .contenedor .texto {
@@ -1877,10 +1879,14 @@ header .nav-texto:hover {
   width: 90%;
 }
 #entradas #secciones .titulo .universal_4 .contenedor .texto p {
+  font-family: "Lato", sans-serif;
+  font-size: 80%;
   color: #1A223C;
 }
 #entradas #form {
   width: 50%;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 #entradas #form .centrado {
@@ -1895,12 +1901,71 @@ header .nav-texto:hover {
   border-color: #B08CFF;
 }
 
-#pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #centro_de_ayuda .contenedor_2 .categoria p, #entradas #secciones .titulo .universal_4 .contenedor .texto p {
+/* Tablets 1*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  #entradas #secciones {
+    width: 40%;
+  }
+  #entradas #secciones .titulo .titulo_1 .titulo_2 {
+    width: 50%;
+  }
+  #entradas #secciones .titulo .universal_4 .universal_4_1 {
+    width: 80%;
+  }
+  #entradas #secciones .titulo .universal_4 .universal_4_1 .contenedor .imagen img {
+    margin-left: 33px;
+    width: 80%;
+    height: 45px;
+  }
+  #entradas #secciones .titulo .universal_4 .universal_4_1 .contenedor .texto p {
+    font-size: 75%;
+  }
+  #entradas #form {
+    width: 60%;
+    justify-content: flex-start;
+  }
+  #entradas #form .centrado {
+    width: 90%;
+  }
+}
+/* Celulares */
+@media (min-width: 320px) and (max-width: 767px) {
+  #entradas {
+    display: block;
+    margin-bottom: 150px;
+  }
+  #entradas #secciones {
+    width: 100%;
+  }
+  #entradas #secciones .titulo .titulo_1 .titulo_2 {
+    width: 40%;
+  }
+  #entradas #secciones .titulo .universal_4 .universal_4_1 {
+    width: 80%;
+  }
+  #entradas #secciones .titulo .universal_4 .universal_4_1 .contenedor .imagen img {
+    margin-left: 33px;
+    width: 80%;
+    height: 45px;
+  }
+  #entradas #secciones .titulo .universal_4 .universal_4_1 .contenedor .texto p {
+    font-size: 80%;
+  }
+  #entradas #form {
+    width: 100%;
+    justify-content: center;
+  }
+  #entradas #form .centrado {
+    margin-top: 30px;
+    width: 70%;
+  }
+}
+#pie_de_pagina .sobre_nosotros p, #blogs .universal_3 .universal_5 .paises .boton button a, #buscador .universal_1 .contenedor_1 .descripcion_1 p, #buscador .universal_1 .contenedor_1 .universal_2 .input-group span .input-group-right-example, #tendencias .contenedor_2 .categoria p, .seccion_destacada .texto_destacado .categoria_2 h1, .intro_pages .universal_1 .contenedor_1 .descripcion_1 p, #catalogo .carrusel .carousel-caption p, #centro_de_ayuda .contenedor_2 .categoria p {
   font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
-#galeria, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button, #entradas, #entradas #secciones .titulo .titulo_1, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .universal_4 .contenedor .imagen, #entradas #form {
+#galeria, #blogs, #blogs .universal_3 .universal_5 .paises .boton, #blogs .universal_3 .universal_5 .paises .boton button, #buscador .universal_1 .contenedor_1 .titulo_1, #buscador .universal_1 .contenedor_1 .descripcion_1, #buscador .universal_1 .contenedor_1 .universal_2, #buscador .universal_1 .contenedor_2, #tendencias .contenedor_2 .imagen, #tendencias .contenedor_2 .categoria, .seccion_destacada .texto_destacado .titulo_2, .seccion_destacada .texto_destacado .categoria_2, .seccion_destacada .texto_destacado .descripcion_2, .seccion_destacada .texto_destacado .imagen_calificacion, .seccion_destacada .texto_destacado .calificacion, #catalogo, #recomendaciones .te_recomendamos, #recomendaciones .te_recomendamos .titulo_3, #recomendaciones .universal_6, #filtrador, #centro_de_ayuda .contenedor_1, #centro_de_ayuda .contenedor_2 .contenedor_3, #centro_de_ayuda .contenedor_2 .imagen, #centro_de_ayuda .contenedor_2 .categoria, #centro_de_ayuda .contenedor_2 .boton, #centro_de_ayuda .contenedor_2 .boton button, #entradas #secciones .titulo .titulo_1, #entradas #secciones .titulo .universal_4, #entradas #secciones .titulo .universal_4 .contenedor .imagen {
   display: flex;
   justify-content: center;
 }
