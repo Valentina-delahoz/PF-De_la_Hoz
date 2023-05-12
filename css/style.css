@@ -664,15 +664,27 @@ header .nav-texto:hover {
   width: 30%;
   background-color: #AAE5E7;
 }
+#tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_1:hover {
+  transform: scale(1.03);
+  transition: all 0.4s ease-out;
+}
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2 {
   display: block;
   width: 30%;
   background-color: #7EED90;
 }
+#tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_2:hover {
+  transform: scale(1.03);
+  transition: all 0.4s ease-out;
+}
 #tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3 {
   display: block;
   width: 30%;
   background-color: #F0A290;
+}
+#tendencias .contenedor_2 .contenedor_3 .contenedor_3_0 .contenedor_3_3:hover {
+  transform: scale(1.03);
+  transition: all 0.4s ease-out;
 }
 #tendencias .contenedor_2 .contenedor_4 {
   width: 100%;
@@ -686,16 +698,22 @@ header .nav-texto:hover {
   justify-content: space-between;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_1 {
+  transform: scale(1.03);
+  transition: all 0.4s ease-out;
   display: block;
   width: 30%;
   background-color: #F0A290;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_2 {
+  transform: scale(1.03);
+  transition: all 0.4s ease-out;
   display: block;
   width: 30%;
   background-color: #AAE5E7;
 }
 #tendencias .contenedor_2 .contenedor_4 .contenedor_4_0 .contenedor_4_3 {
+  transform: scale(1.03);
+  transition: all 0.4s ease-out;
   display: block;
   width: 30%;
   background-color: #7EED90;
@@ -922,6 +940,10 @@ header .nav-texto:hover {
   justify-content: center;
   margin-right: 70px;
 }
+.seccion_destacada .belleza .imagen_destacada:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+}
 .seccion_destacada .belleza .imagen_destacada img {
   width: 100%;
 }
@@ -937,6 +959,10 @@ header .nav-texto:hover {
   display: flex;
   justify-content: center;
   margin-right: 70px;
+}
+.seccion_destacada .nutricion .imagen_destacada:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-out;
 }
 .seccion_destacada .nutricion .imagen_destacada img {
   width: 100%;

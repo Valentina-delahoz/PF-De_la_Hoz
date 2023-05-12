@@ -12,6 +12,10 @@
             display: flex;
             justify-content: center;
             margin-right: 70px;
+            &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease-out;
+            }
             img{
                 width: 100%;
             }
@@ -28,6 +32,10 @@
             display: flex;
             justify-content: center;
             margin-right: 70px;
+            &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease-out;
+            }
             img{
                 width: 100%;
             }

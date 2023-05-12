@@ -34,6 +34,8 @@
 
                     &:hover{
                         @extend %hover-tendencia;
+                        transform: scale(1.03);
+                        transition: all 0.4s ease-out;
                     }
                 }
                 .contenedor_3_2{
@@ -43,6 +45,8 @@
                     @include color(nth($colores-base, 1 ));
                     &:hover{
                         @extend %hover-tendencia;
+                        transform: scale(1.03);
+                        transition: all 0.4s ease-out;
                     }
                 }
                 .contenedor_3_3{
@@ -52,6 +56,8 @@
                     @include color(nth($colores-base, 4 ));
                     &:hover{
                         @extend %hover-tendencia;
+                        transform: scale(1.03);
+                        transition: all 0.4s ease-out;
                     }
                 }
             }
@@ -67,6 +73,8 @@
                 justify-content: space-between;
                 .contenedor_4_1{
                     @extend %contendedor-tendencia;
+                    transform: scale(1.03);
+                    transition: all 0.4s ease-out;
                     display: block;
                     width: 30%;
                     @include color(nth($colores-base, 4 ));
@@ -76,6 +84,8 @@
                 }
                 .contenedor_4_2{
                     @extend %contendedor-tendencia;
+                    transform: scale(1.03);
+                    transition: all 0.4s ease-out;
                     display: block;
                     width: 30%;
                     @include color(nth($colores-base, 3 ));
@@ -85,6 +95,8 @@
                 }
                 .contenedor_4_3{
                     @extend %contendedor-tendencia;
+                    transform: scale(1.03);
+                    transition: all 0.4s ease-out;
                     display: block;
                     width: 30%;
                     @include color(nth($colores-base, 1 ));
