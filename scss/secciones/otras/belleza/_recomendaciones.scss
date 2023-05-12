@@ -42,7 +42,8 @@
             }
             p{
                 width: 100%;
-                @extend %diseño-texto;
+                font-family: 'Lato', sans-serif;
+                font-size: 100%;
                 color: nth($colores-texto , 1);
             }
             .texto_1{
@@ -68,6 +69,124 @@
             }
             .img_4{
                 grid-area: img_4;
+            }
+        }
+    }
+}
+
+/* Tablets */
+@media (min-width:768px) and (max-width:1024px){
+    #recomendaciones{
+        .te_recomendamos{
+            .titulo_3{ 
+                img{
+                    width: 80%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .universal_6{
+            .contenedor_1{
+                display: nth($display, 2 );
+                grid-template-columns: 50% 50%; 
+                grid-template-rows: 50% 50%; 
+                gap: 0px 0px; 
+                grid-template-areas: 
+                    "img_1 texto_1"
+                    "texto_4 img_4"; 
+                width: 70%; 
+                height: 100%;
+                img{
+                    margin-bottom: 0px;
+                }
+                p{
+                    width: 80%;
+                    margin-top: 70px;
+                    text-align: justify;
+
+                }
+                .texto_1{
+                    background-color: nth($colores-base , 10 );
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto_4{
+                    background-color: nth($colores-base , 10 );
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto_2{
+                    display: none;
+                }
+                .img_2{
+                    display: none;
+                }
+                .texto_3{
+                    display: none;
+                }
+                .img_3{
+                    display: none;
+                }
+            }
+        }
+    } 
+}
+
+/* Celulares */
+@media (min-width:320px) and (max-width:767px) {
+    #recomendaciones{
+        .te_recomendamos{
+            .titulo_3{ 
+                img{
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .universal_6{
+            .contenedor_1{
+                display: nth($display, 2 );
+                grid-template-columns: 50% 50%; 
+                grid-template-rows: 50% 50%; 
+                gap: 0px 0px; 
+                grid-template-areas: 
+                    "img_1 texto_1"
+                    "texto_4 img_4"; 
+                width: 90%; 
+                height: 100%;
+                img{
+                    margin-bottom: 0px;
+                }
+                p{
+                    width: 80%;
+                    margin-top: 10px;
+                    text-align: justify;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 80%;
+
+                }
+                .texto_1{
+                    background-color: nth($colores-base , 10 );
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto_4{
+                    background-color: nth($colores-base , 10 );
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto_2{
+                    display: none;
+                }
+                .img_2{
+                    display: none;
+                }
+                .texto_3{
+                    display: none;
+                }
+                .img_3{
+                    display: none;
+                }
             }
         }
     }
